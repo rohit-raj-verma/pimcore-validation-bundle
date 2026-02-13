@@ -26,13 +26,11 @@ A Pimcore bundle that adds complex field validation rules directly in the class 
 
 ## Installation
 
-### Step 1: Install the Bundle
+### Step 1: Install via Composer
 
 ```bash
-composer require vendor/pimcore-validation-bundle
+composer require rohit-raj-verma/pimcore-validation-bundle
 ```
-
-Or add the bundle manually to your project's `bundles` directory.
 
 ### Step 2: Enable the Bundle
 
