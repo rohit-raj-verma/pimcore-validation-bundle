@@ -1,0 +1,8 @@
+pimcore_validation_homepage:
+    path:     /pimcore_validation
+    defaults: { _controller: PimcoreValidationBundle\Controller\DefaultController::indexAction }
+
+pimcore_validation_admin_rules:
+    path: /admin/pimcore-validation/rules
+    methods: [GET]
+    defaults: { _controller: PimcoreValidationBundle\Controller\Admin\RulesController::rulesAction }
